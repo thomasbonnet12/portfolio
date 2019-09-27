@@ -1,1 +1,24 @@
 @import "components/navbar.css";
+@import "components/self-intro.css";
+@import "components/project.css";
+
+.home{
+  margin:0;
+  background-color: white;
+}
+
+.gus-violet{
+  background-color: #5258EF;
+}
+
+h1{
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+ font-family: 'Raleway', sans-serif;
+}

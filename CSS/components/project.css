@@ -1,0 +1,58 @@
+.projets{
+  display: none;
+}
+
+.projects-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 90vh;
+ padding: 5vh 4vw;
+ min-width: 320px;
+ background-color: #5258EF;
+}
+
+.projects-slideshow-container{
+ position: relative;
+ margin: auto;
+
+}
+
+.projects-slideshow-container img{
+  object-fit: contain;
+  max-height: 70vh;
+
+}
+
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+.projects-link{
+ text-decoration: none;
+}
+
+.projects-info{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  padding: 1.5vh 2vw;
+  background: rgba(255, 255, 255, 0.7);
+  color: #343a40;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 800ms, visibility 800ms;
+  transition: opacity 800ms, visibility 800ms;
+}
+
+.projects-info p{
+ font-weight: bolder;
+}
+
+.projects-info:hover .projects-link:hover{
+  visibility: visible;
+  opacity: 1;
+}
