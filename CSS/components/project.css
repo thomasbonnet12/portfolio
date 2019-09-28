@@ -1,25 +1,27 @@
-.projects{
+.my-projects{
   display: none;
 }
 
-.projects-container{
+.projects{
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- height: 90vh;
- padding: 5vh 4vw;
+ height: 95vh;
+ padding-top: 20px;
+ padding-bottom: 20px;
  min-width: 320px;
  background-color: #5258EF;
 }
 
-.projects-container h1{
+.projects h2{
   color: white;
-  font-size: 42px;
+  font-size: 55px;
   }
 
 .projects-slideshow-container{
  position: relative;
  margin: auto;
+ margin-bottom: 80px;
 }
 
 .projects-slideshow-container img{
@@ -80,7 +82,7 @@
  text-decoration: none;
 }
 
-.fade{
+.my-fade{
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2.5s;
   animation-name: fade;
@@ -98,7 +100,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .projects-container h1 { font-size: 54px; }
+  .projects h1 { font-size: 54px; }
   .projects-info {
     position: relative;
     visibility: visible;

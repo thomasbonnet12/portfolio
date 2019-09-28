@@ -14,8 +14,14 @@
   <!-- CSS -->
   <link href="CSS/main.css" rel="stylesheet" type="text/css" media="screen">
 
+  <!-- Data-aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Goofle font -->
-  <style>@import url('https://fonts.googleapis.com/css?family=Raleway|Righteous|Roboto+Condensed&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Questrial|Roboto&display=swap');</style>
+
+   <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
 
   <!--  FACEBOOK -->
   <meta property="og:title" content="Thomas Bonnet" />
@@ -32,7 +38,7 @@
 <body class="home">
  <!-- INTRODUCTION PAGE -->
  <div class="self-intro-container">
-  <div class="self-intro">
+  <div class="self-intro" data-aos="zoom-in-up">
    <h1>Hi, you found <span style="color:#5258EF">me</span> !</h1>
     <h1>I’m a <span style="color:#5258EF">full stack developer</span>. I am currently developing exciting projects. I'm always interested about new ones ! I can help you realize your <span style="color:#5258EF">awesome projects</span> !
     </h1>
@@ -42,10 +48,10 @@
  </div>
 
    <!-- PROJECT PAGE -->
- <div class="projects-container">
-  <h1>My projects</h1>
+ <div class="projects">
+  <h2 class="text-center">My projects</h2>
   <div class="projects-slideshow-container">
-    <div class="projects fade">
+    <div class="my-projects my-fade">
     <a href="http://www.famtravel.eu" target="blank" class="projects-link">
       <img src="img/famtravelpic.png">
       <div class="projects-info">
@@ -54,7 +60,7 @@
       </div>
     </a>
    </div>
-   <div class="projects fade">
+   <div class="my-projects my-fade">
     <a href="http://superpower-to-rent.herokuapp.com/" target="blank" class="projects-link">
       <img src="img/superhero.png">
       <div class="projects-info">
@@ -67,6 +73,48 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
  </div>
+
+ <!-- SERVICE PAGE -->
+ <div class="services m-3">
+  <h2 class="text-center">My services</h2>
+  <div class="services-container pt-2">
+
+  <div class="container my-border">
+     <div class="p-3 bg-white">
+      <div class="card-text">
+        <div class="row">
+          <div class="col text-center text-justify" data-aos="fade-right">
+            <h3 class="services-title">Conception</h3>
+            <div class="icon-services">
+              <i class="fab fa-slideshare"></i>
+            </div>
+            <p>Understanding of client's need and conceptualization of the project.</p>
+          </div>
+          <div class="col text-center text-justify" data-aos="zoom-in">
+            <h3 class="services-title">Design</h3>
+            <div class="icon-services">
+             <i class="fas fa-palette"></i>
+            </div>
+            <p>Proposition of a design upon client's needs and wants. Responsive design: adaptation of responsiveness on any support.</p>
+          </div>
+          <div class="col text-center text-justify" data-aos="fade-left">
+            <h3 class="services-title">Development</h3>
+            <div class="icon-services">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <p>Construction of your project until release online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
 <script type="text/javascript" src="Javascript/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({
+  delay: 800,
+});</script>
 </body>
 </html>
