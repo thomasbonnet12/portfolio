@@ -15,11 +15,12 @@
 
 .services-title {
   font-size: 35px;
+  margin-top: 2pc;
 }
 
 .services-container{
  position: relative;
- margin: auto;
+ margin-bottom: 125px;
 }
 
 .row p{

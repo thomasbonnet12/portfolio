@@ -2,6 +2,7 @@
 @import "components/self-intro.css";
 @import "components/project.css";
 @import "components/my-services.css";
+@import "components/skill.css";
 
 .home{
   margin:0;
@@ -26,4 +27,8 @@ h3{
 
 p{
  font-family: 'Questrial', sans-serif;
+ font-size: 0.8rem;
+    letter-spacing: 2px;
+
+    font-weight: 400;
 }
