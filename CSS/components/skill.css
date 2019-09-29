@@ -2,22 +2,22 @@
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- height: 95vh;
  padding-top: 20px;
- padding-bottom: 20px;
+ padding-bottom: 100px;
  min-width: 320px;
- background-color: white;
+ background-color: #C1DBE3;
 }
 
 .skill h2{
-  color: #5258EF;
+  color: white;
   font-size:55px;
+  font-weight: 300;
 }
 
 .my-border{
   border-style: solid;
   border-width: 5px;
-  border-color: #5258EF;
+  border-color: #416788;
 }
 
 .skill-container{

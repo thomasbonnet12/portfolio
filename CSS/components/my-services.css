@@ -9,8 +9,9 @@
 }
 
 .services h2{
-  color: #5258EF;
+  color: #416788;
   font-size: 55px;
+  font-weight: 300;
 }
 
 .services-title {
@@ -34,5 +35,5 @@
 .my-border{
   border-style: solid;
   border-width: 5px;
-  border-color: #5258EF;
+  border-color: #416788;
 }

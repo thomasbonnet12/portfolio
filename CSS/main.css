@@ -3,6 +3,7 @@
 @import "components/project.css";
 @import "components/my-services.css";
 @import "components/skill.css";
+@import "components/footer.css";
 
 .home{
   margin:0;

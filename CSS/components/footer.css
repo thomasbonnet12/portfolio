@@ -1,0 +1,23 @@
+.footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ min-width: 320px;
+ background-color: white;
+ height: 35vh;
+}
+
+.footer-container{
+ position: relative;
+ background-color: white;
+ width: 30%;
+ height: 90%;
+ margin: auto;
+}
+
+.footer-container p{
+  font-size: 20px;
+}
+

@@ -6,22 +6,23 @@
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- height: 95vh;
  padding-top: 20px;
  padding-bottom: 20px;
  min-width: 320px;
- background-color: #5258EF;
+ background-color: #C1DBE3;
 }
 
 .projects h2{
   color: white;
   font-size: 55px;
+  font-weight: 300;
   }
 
 .projects-slideshow-container{
  position: relative;
  margin: auto;
  margin-bottom: 50px;
+
 }
 
 .projects-slideshow-container img{
