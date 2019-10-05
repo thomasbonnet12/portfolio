@@ -1,5 +1,5 @@
 .self-intro-container{
-  min-height: 90vh;
+  min-height: 100vh;
   top:0;
   left:0;
   padding-top: 20px;
@@ -19,9 +19,47 @@
 
 .self-intro{
   position: relative;
-  margin:100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
   padding:20px;
-  text-align: justify;
   text-justify: inter-word;
-  width:60%;
+  text-align: justify;
+}
+
+.arrow{
+  /*position: absolute;
+  top: 690px;
+  left: 680px;*/
+  height: 80px;
+  width: 80px;
+}
+
+.arrow-skill{
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 1350px) {
+  .arrow{
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .self-intro{
+    position: relative;
+    margin: 10px;
+  }
+  .self-intro-container h1{
+    font-size:50px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .self-intro-container h1{
+    font-size:40px;
+    margin:5px;
+  }
 }

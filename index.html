@@ -5,17 +5,18 @@
   <!-- TO DO: Make it a secure site to help improve SEO -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Thomas Bonnet</title>
   <link rel="icon" href="IMG">
   <meta name="description" content="Full Stack Developer, Front end, Back end, I can help you realize your project !">
   <meta name="author" content="Thomas Bonnet">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
 
   <!-- Data-aos -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Goofle font -->
-  <style>@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Questrial|Roboto&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css?family=Average|Fjalla+One|Montserrat|Open+Sans|Roboto&display=swap');</style>
 
    <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
@@ -36,22 +37,38 @@
 </head>
 
 <body class="home">
+ <!-- AVATAR -->
+ <a name="presentation-page"></a>
+
+<img src="img/photo-moi.png" alt="" class="avatar rounded-circle">
+  <div class="dropdown-content hidden">
+    <a href="#">My dashboard</a>
+    <a href="#">Sign up</a>
+    <a href="#">Go check out!</a>
+  </div>
+
+
  <!-- INTRODUCTION PAGE -->
  <div class="self-intro-container">
   <div class="self-intro" data-aos="zoom-in-up">
     <h1>Hi, you found <span style="color:#C1DBE3">me</span> !</h1>
+    <br>
     <h1>I’m a <span style="color:#C1DBE3">full stack developer</span>, always interested about new projects.</h1>
-    <h2>Let me help you create something <span style="color:#C1DBE3">awesome</span> !</h2>
+    <h1>Let me help you create something <span style="color:#C1DBE3">awesome</span> !</h1>
    </div>
+    <a href="#page-project" class="text-center">
+      <img src="img/arrowdown.svg" alt="link to project" class="arrow">
+    </a>
  </div>
 
    <!-- PROJECT PAGE -->
+ <a name="page-project"></a>
  <div class="projects" data-aos="zoom-in">
   <h2 class="text-center">My projects</h2>
   <div class="projects-slideshow-container">
     <div class="my-projects my-fade">
     <a href="http://www.famtravel.eu" target="blank" class="projects-link">
-      <img src="img/famtravelpic.png">
+      <img src="img/iphone8famtravel.png">
       <div class="projects-info">
         <h4>Famtravel</h4>
         <p>We connect families all over the world to make the best of each travel for families</p>
@@ -60,7 +77,7 @@
    </div>
    <div class="my-projects my-fade">
     <a href="http://superpower-to-rent.herokuapp.com/" target="blank" class="projects-link">
-      <img src="img/superhero.png">
+      <img src="img/macbookpro13superhero.png">
       <div class="projects-info">
         <h4>Superpower to rent</h4>
         <p>An AirBnb model clone to rent superpowers!</p>
@@ -70,9 +87,13 @@
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
+   <a href="#service-page" class="text-center">
+    <img src="img/arrowdown.svg" alt="link to project" class="arrow">
+   </a>
  </div>
 
  <!-- SERVICE PAGE -->
+ <a name="service-page"></a>
  <div class="services m-3">
   <h2 class="text-center">My services</h2>
   <div class="services-container pt-2">
@@ -107,9 +128,13 @@
     </div>
   </div>
   </div>
+  <a href="#skill-page" class="text-center">
+    <img src="img/arrowdown.svg" alt="link to project" class="arrow-skill text-center">
+   </a>
 </div>
 
 <!-- SKILL PAGE -->
+<a name="skill-page"></a>
 <div class="skill">
   <h2 class="text-center">My skills</h2>
   <div class="skill-container my-border">
@@ -213,19 +238,34 @@
       </div>
   </div>
 </div>
+
+<!-- FOOTER PAGE -->
 <div class="footer">
   <div class="footer-container">
     <div class="text-center">
       <p>Let’s meet soon !</p>
       <p>Feel free to reach out and grab a coffee to help you realize your dream !</p>
-      <img src="img/Linkedin.png" alt="Linkedin" class="skill-image">
-      <img src="img/gmaill.png" alt="gmail" class="skill-image">
-      <img src="img/github-collab-retina-preview.gif" alt="Github" class="skill-image">
+        <div>
+          <a href="https://www.linkedin.com/in/thomas-bonnet-92b25214a/" target="blank" >
+           <img src="img/Linkedin.png" alt="Linkedin" class="skill-image">
+          </a>
+        </div>
+        <div>
+          <a href="mailto:thomas.bonnet.12@gmail.com" target="blank" method="post" enctype="text/plain">
+           <img src="img/gmaill.png" alt="gmail" class="skill-image">
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/thomasbonnet12" target="blank">
+           <img src="img/github-collab-retina-preview.gif" alt="Github" class="skill-image">
+          </a>
+        </div>
+        <a href="#presentation-page" class="text-center">
+         <img src="img/Arrow-Up.png" alt="link to project" class="arrow-footer text-center">
+       </a>
+       <div>Back to the top?</div>
     </div>
   </div>
-</div>
-
-
 </div>
 
 <script type="text/javascript" src="Javascript/main.js"></script>

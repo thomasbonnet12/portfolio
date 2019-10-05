@@ -10,6 +10,7 @@
  padding-bottom: 20px;
  min-width: 320px;
  background-color: #C1DBE3;
+ min-height: 100vh;
 }
 
 .projects h2{
@@ -21,7 +22,7 @@
 .projects-slideshow-container{
  position: relative;
  margin: auto;
- margin-bottom: 50px;
+ margin-bottom: 90px;
 
 }
 
