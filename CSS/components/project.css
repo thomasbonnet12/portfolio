@@ -8,9 +8,9 @@
  justify-content: space-between;
  padding-top: 20px;
  padding-bottom: 20px;
- min-width: 320px;
  background-color: #C1DBE3;
  min-height: 100vh;
+
 }
 
 .projects h2{
@@ -39,7 +39,7 @@
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: white !important;
   font-weight: bold;
   font-size: 21px;
   transition: 0.6s ease;
@@ -67,8 +67,8 @@
   color: #343a40;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 800ms, visibility 800ms;
-  transition: opacity 800ms, visibility 800ms;
+  -webkit-transition: opacity 300ms, visibility 300ms;
+  transition: opacity 300ms, visibility 300ms;
 }
 
 .projects-info p{
@@ -101,7 +101,7 @@
   to {opacity: 1}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   .projects h1 { font-size: 54px; }
   .projects-info {
     position: relative;
@@ -110,4 +110,6 @@
     bottom:0px;
   }
   .projects-container { height: 90vh; }
+
+  .projects-slideshow-container img{ width: 100vw; }
 }

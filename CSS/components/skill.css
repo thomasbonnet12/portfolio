@@ -45,5 +45,28 @@
 
 .row p{
   font-size: 20px;
-  color:darkgrey;
+  color:#4A4E51;
+}
+
+.arrow-skill{
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 400px) {
+  .skill h2{
+    font-size: 30px;
+  }
+  .row p{
+    font-size:12px;
+  }
+  .arrow-skill{
+  height: 50px;
+  width: 50px;
+  }
+  .skill-image{
+  height: 2rem;
+}
+
+
 }

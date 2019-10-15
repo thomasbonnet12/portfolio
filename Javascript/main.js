@@ -18,7 +18,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 }
 
+const img = document.querySelector(".imgqueryselector");
 
-document.getElementsByClassName("avatar").addEventListener ("click", function() {
-    document.getElementByClassName("hidden").style.display = "block";
+img.addEventListener("click", (event)=> {
+  console.log("Its working !");
+  const list = document.querySelector(".iconqueryselector");
+  list.classList.toggle("aos-animate");
 });
+
+// document.querySelector('.imgqueryselector').addEventListener('click', function() {
+//   document.querySelector('.hhidden').classList.toggle('active');
+// });

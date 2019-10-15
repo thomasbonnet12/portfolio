@@ -2,8 +2,7 @@
   min-height: 100vh;
   top:0;
   left:0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,7 +23,7 @@
   margin-top: 70px;
   padding:20px;
   text-justify: inter-word;
-  text-align: justify;
+
 }
 
 .arrow{
@@ -35,16 +34,6 @@
   width: 80px;
 }
 
-.arrow-skill{
-  height: 80px;
-  width: 80px;
-}
-
-@media screen and (max-width: 1350px) {
-  .arrow{
-
-  }
-}
 
 @media screen and (max-width: 900px) {
   .self-intro{
@@ -61,5 +50,17 @@
   .self-intro-container h1{
     font-size:40px;
     margin:5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .self-intro-container h1{
+    font-size:30px;
+    margin:5px;
+  }
+
+  .arrow {
+    height: 50px;
+    width:50px;
   }
 }
