@@ -1,0 +1,38 @@
+@import "components/navbar.css";
+@import "components/self-intro.css";
+@import "components/project.css";
+@import "components/my-services.css";
+@import "components/skill.css";
+@import "components/footer.css";
+@import "components/navbar-avatar.css";
+
+.home{
+  margin:0;
+  padding:0;
+  background-color: white;
+  width: 100%;
+}
+
+.gus-violet{
+  background-color: #5258EF;
+}
+
+h1{
+ font-family: 'Fjalla+One', sans-serif;
+ font-weight: bold;
+}
+
+h2{
+font-family: 'Average', sans-serif;
+}
+
+h3{
+  font-family:'Average', sans-serif;
+}
+
+p{
+ font-family: 'Fjalla+One', sans-serif;
+ font-size: 0.8rem;
+ letter-spacing: 2px;
+ font-weight: 400;
+}

@@ -1,0 +1,41 @@
+.hhidden{
+  display: none;
+}
+
+#ssticky{
+  position: fixed !important;
+  background: cover;
+  height:70px;
+  width: 70px;
+  top:35px;
+  left:35px;
+  z-index: 1;
+}
+
+.avatar{
+  background: cover;
+  height:80px;
+  width: 80px;
+  top:35px;
+  left:35px;
+  position: sticky !important;
+  z-index: 1;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.iconprojection{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
+.contactimgnavbar{
+  height: 2rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin: 0.3rem;
+}
+
+.blockdisplay{
+  display: block;
+}

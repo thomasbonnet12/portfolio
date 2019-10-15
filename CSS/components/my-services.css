@@ -1,0 +1,48 @@
+.services{
+ height: 100vh;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 5vh 4vw;
+ overflow: scroll;
+}
+
+.services h2{
+  color: #416788;
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.services-title {
+  font-size: 35px;
+  margin-top: 2pc;
+}
+
+.services-container{
+ position: relative;
+ margin-bottom: 125px;
+}
+
+.row p{
+  font-size:25px;
+}
+
+.icon-services{
+  font-size:40px;
+}
+
+.my-border{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #416788;
+}
+
+@media screen and (max-width: 400px) {
+  .services h2{
+    font-size: 40px;
+}
+  .row p{
+    font-size:20px;
+  }
+}

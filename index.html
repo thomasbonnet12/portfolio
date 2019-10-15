@@ -5,14 +5,33 @@
   <!-- TO DO: Make it a secure site to help improve SEO -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
   <title>Thomas Bonnet</title>
   <link rel="icon" href="IMG">
   <meta name="description" content="Full Stack Developer, Front end, Back end, I can help you realize your project !">
   <meta name="author" content="Thomas Bonnet">
+
+
+
+  <!-- Data-aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Goofle font -->
+  <style>@import url('https://fonts.googleapis.com/css?family=Average|Fjalla+One|Montserrat|Open+Sans|Roboto&display=swap');</style>
+
+   <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <!-- CSS -->
+  <link href="CSS/main.css" rel="stylesheet" type="text/css" media="screen">
+
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   <!-- CSS -->
   <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+
 
   <!--  FACEBOOK -->
   <meta property="og:title" content="Thomas Bonnet" />
@@ -25,12 +44,263 @@
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/721627a3c7.js"></script>
 
+</head>
+
+<body class="home">
+ <!-- AVATAR -->
+ <a name="presentation-page"></a>
+
+<div class="iconprojection" id= "ssticky">
+  <img src="img/photo-moi.png" alt="" class="avatar rounded-circle imgqueryselector">
+  <div class="footer-icon iconqueryselector" data-aos="fade-right">
+    <div>
+      <a href="https://www.linkedin.com/in/thomas-bonnet-92b25214a/" target="blank" >
+       <img src="img/Linkedin.png" alt="Linkedin" class="contactimgnavbar">
+      </a>
+    </div>
+    <div>
+      <a href="mailto:thomas.bonnet.12@gmail.com" target="blank" method="post" enctype="text/plain">
+       <img src="img/gmaill.png" alt="gmail" class="contactimgnavbar">
+      </a>
+    </div>
+    <div>
+      <a href="https://github.com/thomasbonnet12" target="blank">
+       <img src="img/github-collab-retina-preview.gif" alt="Github" class="contactimgnavbar">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+ <!-- INTRODUCTION PAGE -->
+ <div class="self-intro-container">
+  <div class="self-intro" data-aos="zoom-in-up">
+    <h1>Hi, you found <span style="color:#C1DBE3">me</span> !</h1>
+    <h1>I’m a <span style="color:#C1DBE3">full stack developer</span>, always interested about new projects.</h1>
+    <h1>Let me help you create something <span style="color:#C1DBE3">awesome</span> !</h1>
+   </div>
+   <a href="#page-project" class="text-center">
+      <img src="img/arrowdown.svg" alt="link to project" class="arrow">
+   </a>
+ </div>
+
+   <!-- PROJECT PAGE -->
+ <a name="page-project"></a>
+ <div class="projects" data-aos="zoom-in">
+  <h2 class="text-center">My projects</h2>
+  <div class="projects-slideshow-container">
+    <div class="my-projects my-fade">
+    <a href="http://www.famtravel.eu" target="blank" class="projects-link">
+      <img src="img/iphone8famtravel.png">
+      <div class="projects-info">
+        <h4>Famtravel</h4>
+        <p>We connect families all over the world to make the best of each travel for families</p>
+      </div>
+    </a>
+   </div>
+   <div class="my-projects my-fade">
+    <a href="http://superpower-to-rent.herokuapp.com/" target="blank" class="projects-link">
+      <img src="img/macbookpro13superhero.png">
+      <div class="projects-info">
+        <h4>Superpower to rent</h4>
+        <p>An AirBnb model clone to rent superpowers!</p>
+      </div>
+    </a>
+   </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+   <a href="#service-page" class="text-center">
+    <img src="img/arrowdown.svg" alt="link to project" class="arrow">
+   </a>
+ </div>
+
+ <!-- SERVICE PAGE -->
+ <a name="service-page"></a>
+ <div class="services m-3">
+  <h2 class="text-center">My services</h2>
+  <div class="services-container pt-2">
+
+  <div class="container my-border">
+     <div class="p-3 bg-white">
+      <div class="card-text">
+        <div class="row">
+          <div class="col text-center text-justify" data-aos="fade-right">
+            <h3 class="services-title">Conception</h3>
+            <div class="icon-services">
+              <i class="fab fa-slideshare"></i>
+            </div>
+            <p>Understanding of client's need and conceptualization of the project.</p>
+          </div>
+          <div class="col text-center text-justify" data-aos="zoom-in">
+            <h3 class="services-title">Design</h3>
+            <div class="icon-services">
+             <i class="fas fa-palette"></i>
+            </div>
+            <p>Proposition of a design upon client's needs and wants. Responsive design: adaptation of responsiveness on any support.</p>
+          </div>
+          <div class="col text-center text-justify" data-aos="fade-left">
+            <h3 class="services-title">Development</h3>
+            <div class="icon-services">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <p>Construction of your project until release online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <a href="#skill-page" class="text-center">
+    <img src="img/arrowdown.svg" alt="link to project" class="arrow-skill text-center">
+   </a>
+</div>
+
+<!-- SKILL PAGE -->
+<a name="skill-page"></a>
+<div class="skill">
+  <h2 class="text-center">My skills</h2>
+  <div class="skill-container my-border">
+
+      <div class="skill-title text-center">
+        <h4>Prototyping</h4>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-center" data-aos="zoom-in">
+            <img src="img/figma.png" alt="figma" class="skill-image">
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+      <div class="skill-title text-center">
+        <h4>Development</h4>
+      </div>
+           <div class="row">
+             <div class="col">
+               <div class="text-center" data-aos="zoom-in">
+                 <img src="img/ruby-logo.png" alt="Ruby" class="skill-image">
+                 <p>Ruby</p>
+               </div>
+             </div>
+             <div class="col">
+               <div class="text-center" data-aos="zoom-in">
+                <img src="img/ruby on rails.png" alt="Ruby" class="skill-image">
+                <p>Ruby on Rails</p>
+               </div>
+             </div>
+             <div class="col">
+               <div class="text-center" data-aos="zoom-in">
+                <img src="img/postgresql.jpg" alt="Ruby" class="skill-image">
+                <p>PostgreSQL</p>
+             </div>
+           </div>
+        </div>
+         <div class="skill-title text-center">
+        <h4>Design</h4>
+      </div>
+        <div class="row">
+          <div class="col">
+            <div class="text-center" data-aos="zoom-in">
+              <img src="img/js.png" alt="" class="skill-image">
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-center" data-aos="zoom-in">
+              <img src="img/css3.png" alt="" class="skill-image">
+              <p>CSS3</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-center" data-aos="zoom-in">
+              <img src="img/html5.png" alt="" class="skill-image">
+              <p>HTML5</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-center" data-aos="zoom-in">
+              <img src="img/bootstrap.jpg" alt="" class="skill-image">
+              <p>Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="skill-title text-center">
+        <h4>Collaboration</h4>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-center" data-aos="zoom-in">
+            <img src="img/git.jpeg" alt="Git" class="skill-image">
+            <p>Git</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center" data-aos="zoom-in">
+            <img src="img/github-collab-retina-preview.gif" alt="Github" class="skill-image">
+            <p>Github</p>
+          </div>
+        </div>
+      </div>
+      <div class="skill-title text-center">
+        <h4>Mise en ligne</h4>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-center" data-aos="zoom-in">
+            <img src="img/heroku.png" alt="Git" class="skill-image">
+            <p>Heroku</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center" data-aos="zoom-in">
+            <img src="img/aws.png" alt="Git" class="skill-image">
+            <p>AWS</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- FOOTER PAGE -->
+<div class="footer">
+  <div class="footer-container">
+    <div class="text-center">
+      <p>Let’s meet soon !</p>
+      <p>Feel free to reach out and grab a coffee to help you realize your dream !</p>
+      <div class="footer-icon">
+        <div>
+          <a href="https://www.linkedin.com/in/thomas-bonnet-92b25214a/" target="blank" >
+           <img src="img/Linkedin.png" alt="Linkedin" class="skill-image">
+          </a>
+        </div>
+        <div>
+          <a href="mailto:thomas.bonnet.12@gmail.com" target="blank" method="post" enctype="text/plain">
+           <img src="img/gmaill.png" alt="gmail" class="skill-image">
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/thomasbonnet12" target="blank">
+           <img src="img/github-collab-retina-preview.gif" alt="Github" class="skill-image">
+          </a>
+        </div>
+      </div>
+        <a href="#presentation-page" class="text-center">
+         <img src="img/Arrow-Up.png" alt="link to project" class="arrow-footer text-center">
+       </a>
+       <div>Back to the top?</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="Javascript/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({
+  delay: 800,
+});</script>
+
   <!-- MAPBOX -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
-</head>
-<body>
-  <h1>Hello world</h1>
-  <p>Hello world</p>
 </body>
 </html>

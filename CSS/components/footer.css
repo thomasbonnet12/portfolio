@@ -1,0 +1,49 @@
+.footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ background-color: white;
+ height: 35vh;
+}
+
+.footer-container{
+ position: relative;
+ background-color: white;
+ width: 30%;
+ height: 90%;
+ margin: auto;
+}
+
+.footer-container p{
+  font-size: 20px;
+}
+
+.arrow-footer{
+height: 50px;
+width: 50px;
+}
+
+.footer-icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+}
+
+
+@media screen and (max-width: 400px) {
+ .footer-container{
+ position: relative;
+ background-color: white;
+ height: 90%;
+ width:90%;
+ margin: auto;
+}
+
+.arrow-footer{
+height: 30px;
+width: 30px;
+}
+
+}

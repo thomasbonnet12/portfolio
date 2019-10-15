@@ -1,0 +1,10 @@
+.nav{
+  position: sticky;
+}
+
+.image-cercle {
+    border-radius: 50%;
+    height: 100;
+    width: 100px;
+    object-fit: cover;
+}
